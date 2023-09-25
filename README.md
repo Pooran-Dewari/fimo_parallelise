@@ -20,3 +20,19 @@ Run FIMO on mutliple DNA sequences against all JASPAR2022 TF motifs
 - run the script using the command below
 - . fimo_parallel.sh
   
+#### output
+- for each motif, the script will create a directory (same name as the motif), see tree structure below \
+├── MA0001.2.meme \
+│   ├── cisml.xml \
+│   ├── fimo.gff \
+│   ├── fimo.html \
+│   ├── fimo.tsv  \
+│   └── fimo.xml \
+├── MA0002.2.meme \
+│   ├── cisml.xml \
+│   ├── fimo.gff \
+│   ├── fimo.html \
+│   ├── fimo.tsv \
+│   └── fimo.xml \
+
+- tsv file is the main output file we are intersted in
