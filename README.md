@@ -33,6 +33,6 @@ Run FIMO on mutliple DNA sequences against all JASPAR2022 TF motifs
 │   ├── fimo.gff \
 │   ├── fimo.html \
 │   ├── fimo.tsv \
-│   └── fimo.xml \
+│   └── fimo.xml 
 
 - tsv file is the main output file we are intersted in
